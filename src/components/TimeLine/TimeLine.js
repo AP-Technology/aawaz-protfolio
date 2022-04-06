@@ -46,7 +46,7 @@ const Timeline = () => {
       const index = Math.round(
         (carouselRef.current.scrollLeft /
           (carouselRef.current.scrollWidth * 0.7)) *
-          TimeLineData.length
+        TimeLineData.length
       );
 
       setActiveItem(index);
@@ -67,7 +67,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hey, my name is Kévin Toussaint, I am a 25 years old french web
+        Hey, my name is Aawaz Gyawali. I am a 26 years old flutter
         developer. I have just completed a 10-week-long coding bootcamp which
         goal was to build 10 applications, in 10 weeks, and which ended with an
         MVP together with 2 fellow students, that we presented in front of a

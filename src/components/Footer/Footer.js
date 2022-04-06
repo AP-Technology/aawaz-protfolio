@@ -20,19 +20,19 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>LET'S WORK TOGETHER</LinkTitle>
-          <LinkItem href="mailto:toussaint.kevin3@gmail.com">
-            toussaint.kevin3@gmail.com
+          <LinkItem href="awazgyawali@gmail.com">
+            awazgyawali@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Inspired by Enyel Sequeira</Slogan>
+          {/* <Slogan>Inspired by Enyel Sequeira</Slogan> */}
         </CompanyContainer>
-        <SocialIcons href="https://github.com/NivekDevv">
+        <SocialIcons href="https://github.com/awazgyawali">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="www.linkedin.com/in/kevintoussaint3">
+        <SocialIcons href="https://np.linkedin.com/in/aawaz">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
       </SocialIconsContainer>

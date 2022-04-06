@@ -1,5 +1,6 @@
 import React from "react";
 import { DiFirebase, DiReact, DiZend, DiNodejsSmall } from "react-icons/di";
+import { RiFlutterFill } from "react-icons/ri"
 import {
   Section,
   SectionDivider,
@@ -33,7 +34,7 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact
+        <RiFlutterFill
           style={{
             marginLeft: "14%",
           }}
@@ -51,8 +52,8 @@ const Technologies = () => (
               Experience with
             </span>{" "}
             <br />
-            <br /> React.js <br /> HTML 5 <br /> CSS <br /> JavaScript <br />{" "}
-            Redux
+            <br /> React.js <br /> HTML 5 <br /> CSS <br /> JavaScript <br />  {" "}
+            Redux <br /> Flutter
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -86,7 +87,7 @@ const Technologies = () => (
             <span style={{ fontWeight: "bolder", fontStyle: "italic" }}>
               Experience with
             </span>{" "}
-            <br /> <br /> MongoDB
+            <br /> <br /> MongoDB <br /> Firebase
           </ListParagraph>
         </ListContainer>
       </ListItem>

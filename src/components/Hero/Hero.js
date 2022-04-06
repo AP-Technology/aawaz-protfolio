@@ -26,8 +26,8 @@ function Hero() {
         <SectionTitle main center>
           Hi There, I'm
           <br />
-          <Span>Kevin Toussaint</Span> <br />
-          Web Developer
+          <Span>Aawaz Gyawali</Span> <br />
+          Mobile Developer
           <Span2 style={{ marginLeft: "2rem" }} ref={textRef}></Span2>
         </SectionTitle>
         <SectionText2>
@@ -38,8 +38,8 @@ function Hero() {
         </SectionText2>
         <Button
           onClick={() =>
-            (window.location =
-              "https://drive.google.com/uc?export=download&id=17tKOhx1MYfXvIFGFKZvj5f8Gnuw1IuCi")
+          (window.location =
+            "https://drive.google.com/uc?export=download&id=17tKOhx1MYfXvIFGFKZvj5f8Gnuw1IuCi")
           }
         >
           <td>My CV</td>
