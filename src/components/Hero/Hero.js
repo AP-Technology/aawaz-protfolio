@@ -27,11 +27,12 @@ function Hero() {
           Hi There, I'm
           <br />
           <Span>Aawaz Gyawali</Span> <br />
-          Mobile Developer
           <Span2 style={{ marginLeft: "2rem" }} ref={textRef}></Span2>
+          {" "}Engineer
+
         </SectionTitle>
-        <SectionText2>
-          Are you looking for a fresh junior web developer? Highly motivated and
+        <SectionText2 >
+          Are you looking for an expert full-stack engineer? Highly motivated and
           fast learner? I'm here for you! You can download my CV/Resume by
           clicking on the button below.
           <br />

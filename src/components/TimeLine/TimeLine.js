@@ -68,12 +68,9 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         Hey, my name is Aawaz Gyawali. I am a 26 years old flutter
-        developer. I have just completed a 10-week-long coding bootcamp which
-        goal was to build 10 applications, in 10 weeks, and which ended with an
-        MVP together with 2 fellow students, that we presented in front of a
-        board for our final examination. I have been practicing coding for 6
-        months, and, although I am still a junior, still a beginner, my
-        motivation is at a 100%!
+        developer. I am currenlty working on a bunch of mobile/backend projects. I am currently learning Stripe , OpenCV and Saltedge.
+        I am looking to collaborate on Flutter Projects. I am looking for help with backend infrastructure management. Ask me about
+        Flutter and its ecosystem. I just love educational content ,  everything from world history, economics, real estate and business.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

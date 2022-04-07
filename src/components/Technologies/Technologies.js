@@ -1,6 +1,7 @@
 import React from "react";
 import { DiFirebase, DiReact, DiZend, DiNodejsSmall } from "react-icons/di";
 import { RiFlutterFill } from "react-icons/ri"
+import { AiOutlineApi } from "react-icons/ai"
 import {
   Section,
   SectionDivider,
@@ -28,7 +29,7 @@ const Technologies = () => (
     <SectionDivider style={{ marginBottom: "3%" }} />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      My main stack is React.JS, I love it. But I am also proficient in and work
+      My main stack is Flutter, I love it. But I am also proficient in and work
       with HTML/CSS. As for the back-end I use Node.JS and Express.
       Additionally, I am competent in API and NoSQL database (MongoDB).
     </SectionText>
@@ -52,8 +53,7 @@ const Technologies = () => (
               Experience with
             </span>{" "}
             <br />
-            <br /> React.js <br /> HTML 5 <br /> CSS <br /> JavaScript <br />  {" "}
-            Redux <br /> Flutter
+            <br />  Flutter <br /> React Native<br /> Android <br /> iOS <br /> HTML 5 <br /> JavaScript <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -82,12 +82,29 @@ const Technologies = () => (
           size="3rem"
         />
         <ListContainer>
-          <ListTitle>DataBase</ListTitle>
+          <ListTitle>Database</ListTitle>
           <ListParagraph>
             <span style={{ fontWeight: "bolder", fontStyle: "italic" }}>
               Experience with
             </span>{" "}
-            <br /> <br /> MongoDB <br /> Firebase
+            <br /> <br /> MongoDB <br /> Firebase <br /> Postgres
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <AiOutlineApi
+          style={{
+            marginLeft: "14%",
+          }}
+          size="3rem"
+        />
+        <ListContainer>
+          <ListTitle>APIs</ListTitle>
+          <ListParagraph>
+            <span style={{ fontWeight: "bolder", fontStyle: "italic" }}>
+              Experience with
+            </span>{" "}
+            <br /> Stripe <br /> Salt-Edge <br /> iBeacon <br /> AltBeacon <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>

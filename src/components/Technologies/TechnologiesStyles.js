@@ -30,7 +30,7 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   margin: 3rem 0;
   
@@ -98,7 +98,7 @@ export const ListParagraph = styled.p`
 `
 
 export const ListItem = styled.li`
-  max-width: 320px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
 

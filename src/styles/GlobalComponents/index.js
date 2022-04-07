@@ -104,7 +104,7 @@ export const SectionText = styled.p`
 `;
 
 export const SectionText2 = styled.p`
-  max-width: 650px;
+  max-width: 610px;
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
